@@ -1,134 +1,454 @@
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Silberfaden - Handgemachte Ketten</title>
+		<title>Silberfaden - Handgemachter Silberschmuck</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="landing">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+			function openCity(evt, tab) {
+			    // Declare all variables
+			    var i, tabcontent, tablinks;
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+			    // Get all elements with class="tabcontent" and hide them
+			    tabcontent = document.getElementsByClassName("tabcontent");
+			    for (i = 0; i < tabcontent.length; i++) {
+			        tabcontent[i].style.display = "none";
+			    }
+
+			    // Get all elements with class="tablinks" and remove the class "active"
+			    tablinks = document.getElementsByClassName("tablinks");
+			    for (i = 0; i < tablinks.length; i++) {
+			        tablinks[i].className = tablinks[i].className.replace(" active", "");
+			    }
+
+			    // Show the current tab, and add an "active" class to the button that opened the tab
+			    document.getElementById(tab).style.display = "block";
+			    evt.currentTarget.className += " active";
+			}
+		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Silberfaden</a></h1>
-					</header>
-
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Silberfaden</h2>
-							<p>Handgemachte Silberketten,<br />
-							Unikate gefertigt mit<br />
-							Liebe zum Detail.</p>
-							
-						</div>
-						<a href="#one" class="more scrolly">Kostproben</a>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-							<h2>Natürliche Materialien und edles Silber</h2>
-							<p>Persönliche und authentische Schmuckstücke für jeden Anlass. Festlich & bunt, modern & zurückhaltend, fein oder kräftig - eime breite Auswahl an Modellen steht Ihnen auf Anfrage zur Verfügung. Gerne berate ich Sie zu meinen Modellen und fertige individuelle Einzelstücke für Sie an.</p>
-							</header>
-							
-						</div>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Silberkette #01<br /></h2>
-								<h3>230€</h3>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Silberkette #02<br /></h2>
-								<h3>200€</h3>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Silberkette #03<br /></h2>
-								<h3>190€</h3>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
-
-				<!-- Three
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
+					<section class="banner style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Silberfaden</h1>
+							<h3 class="major">Handgemachter Silberschmuck aus der Weinstadt Esslingen am Neckar. <br>
+							Individuell und für jeden Charakater.</h3>
+							<ul class="actions stacked">
+								<li><a href="#intro" class="button primary big wide smooth-scroll-middle">Zum Schmuck</a></li>
 							</ul>
 						</div>
-					</section>
-				-->
-
-				<!-- CTA -->
-				
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<section>
-							<h2>Über Silberfaden</h2>
-									<p><span class="image left"><img src="images/pic041.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas sagittis felis ac sagittis semper. Maecenas sagittis felis.</p>
-							</section>
+						<div class="image">
+							<img src="https://drive.google.com/uc?export=view&id=1U18OMVhT_A2Yf_PccPhexNABTFccuYpX" alt="" />
 						</div>
 					</section>
-					
+
+				<!-- Intro -->
+
+					<!-- Tab1 -->
+					<div id="tab1" class="tabcontent" style="display: block !important;">
+						<!-- Header -->
+						<section id="intro" class="wrapper style1 align-center">
+							<div class="inner">
+								<!-- Tab Buttons -->
+								<div class="inner">
+									<ul class="actions fit">
+										<li><a class="button tablinks" onclick="openCity(event, 'tab1')">Halsketten</a></li>
+										<li><a class="button tablinks" onclick="openCity(event, 'tab2')">Armbänder</a></li>
+										<li><a class="button tablinks" onclick="openCity(event, 'tab3')">Ringe</a></li>
+									</ul>
+								</div>
+								<h2>Halsketten</h2>
+								<p>Silber - edler Schimmer & intensiver Glanz.
+								Silber ist das weißeste aller Edelmetalle. Silber kommt in der Natur relativ häufig vor und gilt als ein sehr weiches Metall um die Festigkeit des Silbers zu steigern wird es mit Kupfer legiert. Ein Gramm lässt sich zu einem zwei Kilometer langen Faden ziehen. Es ist härter als Feingold und somit gut geeignet für die Herausforderungen des Alltags.</p>
+							</div>
+						</section>
+
+						<!-- Ketten 1 -->
+						<section class="spotlight style2 fullscreen orient-right content-align-left image-position-center onload-image-fade-in" id="first">
+							<div class="content">
+								<h2>Gestrickte Silberkette mit rotem Gummikern</h2>
+								<p>Ein intensiver Blickfang bei jeder Gelegenheit. Diese Kette besticht durch ihre kräftige Farbe, feine Gestalt und passendem Keramikanhänger. Meine Ketten sind mit vielen Anhängern kombinierbar um immer wieder neu zu überraschen.</p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="https://drive.google.com/uc?export=view&id=1drS67jTX4z31A4xdGaNMP5FxZH70M42g" alt="" />
+							</div>
+						</section>
+
+						<!-- Ketten 2 -->
+						<section class="spotlight style2 orient-left content-align-left image-position-center onload-image-fade-in">
+							<div class="content">
+								<h2>Feine Halskette mit Verzierung</h2>
+								<p>Die Verzierungen im Mittelteil der Silberkette bestechen durch spiegelnde Oberfläche. Grau-blaue Keramikelemte machen diese Kette zu einem subtilen Statement zu schlichter oder ausgefallener Garderobe.</p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="https://drive.google.com/uc?export=view&id=1roNe-ZCnpAepogGue6shuzLyTx-V7Y0S" alt="" />
+							</div>
+						</section>
+
+						<!-- Ketten 3 -->
+						<section class="spotlight style2 orient-right content-align-left image-position-center onload-image-fade-in">
+							<div class="content">
+								<h2>Edle Silberkette mit gebürstetem Anhänger</h2>
+								<p>Mit ihrem dünnen Durchmesser und dunkelblauen Gummikern ist diese Kette die perfekte Basis für längere Anhänger aus verschiedenen Materialien. Das Material des Anhängers harmoniert mit dem Silber und steht in Konstrast zum inneren der Kette.</p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="https://drive.google.com/uc?export=view&id=1U18OMVhT_A2Yf_PccPhexNABTFccuYpX" alt="" />
+							</div>
+						</section>
+					</div>
+
+					<!-- Tab2 -->
+					<div id="tab2" class="tabcontent">
+						<!-- Header -->
+						<section class="wrapper style1 align-center">
+							<div class="inner">
+								<!-- Tab Buttons -->
+								<div class="inner">
+									<ul class="actions fit">
+										<li><a class="button tablinks" onclick="openCity(event, 'tab1')">Halsketten</a></li>
+										<li><a class="button tablinks" onclick="openCity(event, 'tab2')">Armbänder</a></li>
+										<li><a class="button tablinks" onclick="openCity(event, 'tab3')">Ringe</a></li>
+									</ul>
+								</div>
+								<h2>Armbänder</h2>
+								<p>Silber - edler Schimmer & intensiver Glanz.
+								Silber ist das weißeste aller Edelmetalle. Silber kommt in der Natur relativ häufig vor und gilt als ein sehr weiches Metall um die Festigkeit des Silbers zu steigern wird es mit Kupfer legiert. Ein Gramm lässt sich zu einem zwei Kilometer langen Faden ziehen. Es ist härter als Feingold und somit gut geeignet für die Herausforderungen des Alltags.</p>
+							</div>
+						</section>
+
+						<!-- Bänder 1 -->
+						<section class="spotlight style2 fullscreen orient-center content-align-left image-position-center onload-image-fade-in" id="first">
+							<div class="content">
+								<h2>Gestrickte und Geflochtene Silberarmbänder</h2>
+								<p></p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="images/spotlight/band1.jpg" alt="" />
+							</div>
+						</section>
+
+						<!-- Bänder 2 -->
+						<section class="spotlight style2 orient-left content-align-left image-position-center onload-image-fade-in">
+							<div class="content">
+								<h2>Armbänder mit farbenfrohem Inneren</h2>
+								<p></p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="images/spotlight/band2.jpg" alt="" />
+							</div>
+						</section>
+
+						<!-- Bänder 3 -->
+						<section class="spotlight style2 orient-right content-align-left image-position-center onload-image-fade-in">
+							<div class="content">
+								<h2>Silberarmbänder mit und ohne Verzierungen</h2>
+								<p></p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="images/spotlight/band3.jpg" alt="" />
+							</div>
+						</section>
+						</section>
+					</div>
+
+					<!-- Tab3 -->
+					<div id="tab3" class="tabcontent">
+						<!-- Header -->
+						<section class="wrapper style1 align-center">
+							<div class="inner">
+								<!-- Tab Buttons -->
+								<div class="inner">
+									<ul class="actions fit">
+										<li><a class="button tablinks" onclick="openCity(event, 'tab1')">Halsketten</a></li>
+										<li><a class="button tablinks" onclick="openCity(event, 'tab2')">Armbänder</a></li>
+										<li><a class="button tablinks" onclick="openCity(event, 'tab3')">Ringe</a></li>
+									</ul>
+								</div>
+								<h2>Ringe</h2>
+								<p>Silber - edler Schimmer & intensiver Glanz.
+								Silber ist das weißeste aller Edelmetalle. Silber kommt in der Natur relativ häufig vor und gilt als ein sehr weiches Metall um die Festigkeit des Silbers zu steigern wird es mit Kupfer legiert. Ein Gramm lässt sich zu einem zwei Kilometer langen Faden ziehen. Es ist härter als Feingold und somit gut geeignet für die Herausforderungen des Alltags.</p>
+							</div>
+						</section>
+
+						<!-- Ringe 1 -->
+						<section class="spotlight style2 fullscreen orient-center content-align-left image-position-center onload-image-fade-in" id="first">
+							<div class="content">
+								<h2>Breiter Ring aus Kupferdraht</h2>
+								<p>Dieser Ring besticht durch seine kräftige Farbe und harmonierender Verzierung.</p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="images/spotlight/ring1.jpg" alt="" />
+							</div>
+						</section>
+
+						<!-- Ringe 2 -->
+						<section class="spotlight style2 orient-left content-align-left image-position-center onload-image-fade-in">
+							<div class="content">
+								<h2>Dünner Silberring mit Naturperlen</h2>
+								<p>Durch die vielseitige Stricktechnik können die unterschiedlichsten Verzierungen eingearbeitet werden. Naturperlen bieten mit ihrem glänzenden Schimmer eine schöne Ergänzung zum matten Silber.</p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="images/spotlight/ring2.jpg" alt="" />
+							</div>
+						</section>
+
+						<!-- Ringe 3 -->
+						<section class="spotlight style2 orient-right content-align-left image-position-center onload-image-fade-in">
+							<div class="content">
+								<h2>Flacher Silberring mit Holzelement</h2>
+								<p>Dunkles, glatt geschliffenes Holz mit markanter Form fügt sich mit dem Silberdraht zu einem extravaganten Schmuckstück zusammen.</p>
+								<!-- <ul class="actions stacked">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul> -->
+							</div>
+							<div class="image">
+								<img src="images/spotlight/ring3.jpg" alt="" />
+							</div>
+						</section>
+					</section>
+					</div>
+				</section>
+
+				<!-- Termine -->
+				<section class="wrapper style1 align-center">
+						<div class="inner">
+							<header>
+								<h2>Termine</h2>
+								<p>Über das Jahr verteilt können Sie mich auch persönlich auf folgenden Märkten antreffen:</p>
+							</header>
+							<ul class="alt">
+								<li>
+									<h4><a href="https://www.blaubeuren.de/de/Aktuelles/Veranstaltungen?view=publish&item=eventDate&id=2535">Wintermärchenmarkt</a> - 01.12.18 (15 - 20 Uhr) - 02.12.18 (11 - 19 Uhr) Blaubeuren</h3>
+								</li>
+								<li>
+									<h4><a href="https://www.donzdorf.de/kultur-freizeit/maerkte/weihnachtsmarkt.html">Schloss Donzdorf</a> - 08.12.18 (15 - 21 Uhr) - 09.12.18 (11 - 19 Uhr) Donzdorf</h3>
+								</li>
+							</ul>
+							
+						</div>
+				</section>
+
+
+				<!-- Five -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Gallerie</h2>
+							<p>Hier können Sie einige meiner Schmuckstücke in Detailaufnahmen genauer betrachten. Durch meine Arbeit entstehen immer wieder neue Kreationen und Einzelstücke. Generell sind Formen, Farben und Materialien frei miteinander kombinierbar. Gerne stehe ich Ihnen für eine Beratung und individuelle Anfeertigung eines Schmuckstücks zur Verfügung.</p>
+						</div>
+
+						<!-- Gallery -->
+							<div class="gallery style2 medium lightbox onload-fade-in">
+								<article>
+									<a href="images/gallery/fulls/01.jpg" class="image">
+										<img src="images/gallery/fulls/01.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Feine, runde Silberhalskette #1</h3>
+										<p>Mit Gummikern und gebürstetem Anhänger.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/02.jpg" class="image">
+										<img src="images/gallery/fulls/02.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Geflochtene Silberhalskette #2</h3>
+										<p>Mit Gummikern und Magnetverschluss.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/03.jpg" class="image">
+										<img src="images/gallery/fulls/03.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Runde, gestrickte Silberhalskette #3</h3>
+										<p>Roter Gummikern mit farblich akzentuiertem Keramikanhänger.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/04.jpg" class="image">
+										<img src="images/gallery/fulls/04.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Runde, gestrickte Silberhalskette #4</h3>
+										<p>Fein gestrickt, im Mittelteil mit roten Perlen verziert.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/05.jpg" class="image">
+										<img src="images/gallery/fulls/05.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Schlichte, runde Silberhalskette #5</h3>
+										<p>Grüner Gummikern mit Steckverschluss in Silber.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/06.jpg" class="image">
+										<img src="images/gallery/fulls/06.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Schlichte, runde Silberhalskette #5</h3>
+										<p>Grüner Gummikern mit Steckverschluss in Silber.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<!-- <article>
+									<a href="images/gallery/fulls/07.jpg" class="image">
+										<img src="images/gallery/fulls/07.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ipsum Lorem</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/08.jpg" class="image">
+										<img src="images/gallery/fulls/08.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Risus</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/09.jpg" class="image">
+										<img src="images/gallery/fulls/09.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Tempus Dolor</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/10.jpg" class="image">
+										<img src="images/gallery/fulls/10.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sed Etiam</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/11.jpg" class="image">
+										<img src="images/gallery/fulls/11.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Lorem</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/12.jpg" class="image">
+										<img src="images/gallery/fulls/12.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ipsum Dolor</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article> -->
+							</div>
+					</section>
+
+
+				<!-- Seven -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<header>
+								<h2>Über Silberfaden</h2>
+								<p>Claudia Haigis-Lange</p>
+							</header>
+							<div class="content align-left">
+								
+								<p><span class="image left"><img src="images/profile.jpg" alt="" /></span>Inspiriert von der Entstehung des Edelmetalls in Verbindung mit der Natur, mit einem hohen Anspruch an Gestaltung und handwerklichen Können mache ich seit 2004 Schmuck. Mit großem Interesse an ausgefallenden Techniken, entstehen in meiner Werkstatt Schmuckstücke die Gefühle und Stimmungen einfangen. So wird mein Schmuck zu einem geliebten, geschätzten, die Persönlichkeit der Trägerin, unterstützenden Statement, habe ich meine Vorstellung von Schmuck-Design umgesetzt.</p> 
+							</div>
+						</div>
+					</section>
+
 				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Claudia Haigis-Lange</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-						<ul class="copyright">
-							<li>Kontakt: silberfaden.esslingen(at)gmail.com </a></li>
-						</ul>
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="actions fit">
+								<li><a 
+									data-name="silberfaden.esslingen" 
+									data-domain="gmail" 
+									data-tld="com" 
+									href="#" 
+									class="button fit" 
+									onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld">
+									Kontakt
+									</a>
+								</li>
+							</ul>
+							<p>&copy; Silberfaden - Claudia Haigis-Lange.</p>
+							<!-- <p><a href="#">Impressum</a></p> -->
+						</div>
 					</footer>
 
 			</div>
@@ -137,9 +457,9 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
 	</body>
